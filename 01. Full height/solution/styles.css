@@ -1,15 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
 body {
-    margin: 0;
+  height: 100%;
 }
 
 header {
-    background-color: lightskyblue;
+  background-color: lightskyblue;
+  position: relative;
+  height: 100px;
 }
 
 main {
-    background-color: lightcyan;
+  background-color: lightcyan;
+  overflow: auto;
+  padding-bottom: 140px;
+}
+
+.content {
+  background-color: lightcyan;
+  min-height: 100%;
 }
 
 footer {
-    background-color: lightblue;
+  background-color: lightblue;
+  position: relative;
+  height: 140px;
+  margin-top: -140px;
+  clear: both;
+}
+
+h1,
+p {
+  padding: 30px 0px 10px 10px;
 }
